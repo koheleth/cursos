@@ -73,6 +73,11 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Modalidade: 100% online | Conteúdo: via plataforma digital
 - Valor da bolsa: R$ 300,00
 
+### Polo UNICORP — Pós-Graduação (bolsa)
+- Valor da bolsa (custo): R$ 300,00
+- Duração mínima: 4 meses | máxima: 12 meses
+- Valor de venda para cliente: R$ 750,00
+
 ### Polo UNICORP — Arquivos recebidos (salvos localmente)
 - Relação dos Cursos Técnicos EAD – Regular: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_ead_regular.pdf
 - Relação dos Cursos Técnicos por Competência: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_competencia.pdf
