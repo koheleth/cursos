@@ -78,6 +78,16 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Duração mínima: 4 meses | máxima: 12 meses
 - Valor de venda para cliente: R$ 750,00
 
+### Polo UNICORP — Cursos Técnicos (Regular)
+- Valor da bolsa (custo): R$ 350,00
+- Duração mínima: 12 meses | máxima: 14 meses
+- Valor de venda para cliente: R$ 1.500,00 (pode descer até R$ 1.100,00)
+
+### Polo UNICORP — Cursos Técnicos (Competência)
+- Valor da bolsa (custo): R$ 450,00
+- Duração: 30 dias
+- Valor de venda para cliente: R$ 2.400,00 (pode descer até R$ 1.400,00)
+
 ### Polo UNICORP — Arquivos recebidos (salvos localmente)
 - Relação dos Cursos Técnicos EAD – Regular: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_ead_regular.pdf
 - Relação dos Cursos Técnicos por Competência: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_competencia.pdf
