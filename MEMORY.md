@@ -55,6 +55,31 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Pós-Técnico: https://drive.google.com/drive/folders/1G96FT8YODVHDWqQaXuLe1XrwBHAJFp6B
 - Centro Universitário Unicorp FAAO: https://drive.google.com/drive/folders/1ExEHhKNBT21SOcGf6W_jKn74xFt3e8IN
 
+### Polo UNICORP — Materiais gerais de divulgação
+- Manual da Marca: https://drive.google.com/drive/folders/1H0dAYeJK_zb_uEh28PyZYWm9Mfvdtzhk
+- Modelo de Certificado: https://drive.google.com/drive/folders/14MkXsKmfoGglL7Ny7bz26ou2S7qQhRpD
+- Panfleto de Divulgação: https://drive.google.com/drive/folders/1jkvXbBIt4MwwYkFHWZSGuOaInwUHYzbA
+- SGU – Sistema de Gestão Unicorp: https://drive.google.com/drive/folders/1e-zcnjzMreDRWiJ7IfrRMXTkn2lvsjo3
+- Treinamentos: https://drive.google.com/drive/folders/1h-EkFFDJV0x-I7lvRAPfl02inBCZGc9z
+- Vídeos AI: https://drive.google.com/drive/folders/1c1bOU2iuWPJ3zvlLM2HWMtHKzs56ByMr
+
+### Polo UNICORP — Credenciamentos oficiais
+- Portaria MEC (consulta pública): https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MjI5NzU=
+- SISTEC (consulta pública): https://sistec.mec.gov.br/consultapublicaunidadeensino
+  - Passo a passo: Estado Paraíba → Município João Pessoa → Ctrl+F → código “49045” ou “UNICORP”.
+
+### Polo UNICORP — Informativo EJA (início 01/02)
+- Duração: 6 meses | Idade mínima: 18 anos | Escolaridade: Ensino Fundamental
+- Modalidade: 100% online | Conteúdo: via plataforma digital
+- Valor da bolsa: R$ 300,00
+
+### Polo UNICORP — Arquivos recebidos (salvos localmente)
+- Relação dos Cursos Técnicos EAD – Regular: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_ead_regular.pdf
+- Relação dos Cursos Técnicos por Competência: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_competencia.pdf
+- Arte ENEM (descontos): /root/.openclaw/workspace/assets/unicorp/enem_descontos.jpg
+- (Pendente) Tabela de Cursos Pós-Graduação – Atualizada (PDF)
+- (Pendente) Lista Tecnólogo Cursos Centro Universitário UNICORP FAAO (PDF)
+
 ## Síndicos — contatos (clientes)
 - Luis Black (Black Black Black Granito): +55 81 9987-5958
 - Atyla (Síndico Ipês – Caruaru): +55 81 9720-5039
