@@ -71,9 +71,20 @@
 
 ## 5) Cursos (Polo Recife Estratégia Educação)
 
-### 5.1 Grupo do Polo (cursos)
-- Nome: Polo Recife Estratégia Educação
-- JID: **120363369341436636@g.us**
+### 5.1 Grupos/contatos dos Polos (cursos)
+- Polo Recife Estratégia Educação — JID: **120363369341436636@g.us**
+- Polo UNICORP — Contato: **Cinthia Eduarda (Gestora)** +55 83 8818-3895
+
+**Regra crítica:** tratar os polos como totalmente separados. Nunca mencionar um polo ao outro, mesmo quando o curso for o mesmo.
+
+### 5.2 Polo UNICORP — Drive de materiais (usar sempre o link mais recente; não filtrar dentro do drive)
+- Profissionalizantes: https://drive.google.com/drive/folders/1yjs1vC9Tg5Mw-SyXKsIVFTV9I-qCLSlJ
+- Técnico: https://drive.google.com/drive/folders/1-N8qd3RZqv6eu2BKj3fsol-uL04W2VQ_
+- Superiores Sequenciais: https://drive.google.com/drive/folders/1E-Gbes_96euu_yGy8al7cNSavQt5DZEx
+- Aproveitamento: https://drive.google.com/drive/folders/1O04MmD41pTTe99uPE7QpllwzmFlN18Zd
+- Pós-Graduação: https://drive.google.com/drive/folders/1q_q_qTq3k-1cT41BHppfFTKIPnQee9tW
+- Pós-Técnico: https://drive.google.com/drive/folders/1G96FT8YODVHDWqQaXuLe1XrwBHAJFp6B
+- Centro Universitário Unicorp FAAO: https://drive.google.com/drive/folders/1ExEHhKNBT21SOcGf6W_jKn74xFt3e8IN
 
 ### 5.2 Regra: pedir por escrito
 - Pedir orientações **por texto**, não áudio.
