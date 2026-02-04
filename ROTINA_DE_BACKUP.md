@@ -110,7 +110,7 @@
 - Relação dos Cursos Técnicos por Competência: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_competencia.pdf
 - Arte ENEM (descontos): /root/.openclaw/workspace/assets/unicorp/enem_descontos.jpg
 - (Pendente) Tabela de Cursos Pós-Graduação – Atualizada (PDF)
-- (Pendente) Lista Tecnólogo Cursos Centro Universitário UNICORP FAAO (PDF)
+- Lista Tecnólogo Cursos Centro Universitário UNICORP FAAO: /root/.openclaw/workspace/assets/unicorp/lista_tecnologo_unicorp_faao.pdf
 
 ### 5.2 Regra: pedir por escrito
 - Pedir orientações **por texto**, não áudio.

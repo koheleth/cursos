@@ -98,7 +98,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Relação dos Cursos Técnicos por Competência: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_competencia.pdf
 - Arte ENEM (descontos): /root/.openclaw/workspace/assets/unicorp/enem_descontos.jpg
 - (Pendente) Tabela de Cursos Pós-Graduação – Atualizada (PDF)
-- (Pendente) Lista Tecnólogo Cursos Centro Universitário UNICORP FAAO (PDF)
+- Lista Tecnólogo Cursos Centro Universitário UNICORP FAAO: /root/.openclaw/workspace/assets/unicorp/lista_tecnologo_unicorp_faao.pdf
 
 ## Síndicos — contatos (clientes)
 - Luis Black (Black Black Black Granito): +55 81 9987-5958
