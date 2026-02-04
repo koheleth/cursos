@@ -88,6 +88,11 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Duração: 30 dias
 - Valor de venda para cliente: R$ 2.400,00 (pode descer até R$ 1.400,00)
 
+### Polo UNICORP — Cursos Superior Tecnólogo
+- Valor da bolsa (custo): R$ 850,00
+- Duração: 30 dias
+- Valor de venda para cliente: R$ 3.550,00 (pode descer até R$ 2.550,00)
+
 ### Polo UNICORP — Arquivos recebidos (salvos localmente)
 - Relação dos Cursos Técnicos EAD – Regular: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_ead_regular.pdf
 - Relação dos Cursos Técnicos por Competência: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_competencia.pdf
