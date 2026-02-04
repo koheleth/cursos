@@ -109,7 +109,7 @@
 - Relação dos Cursos Técnicos EAD – Regular: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_ead_regular.pdf
 - Relação dos Cursos Técnicos por Competência: /root/.openclaw/workspace/assets/unicorp/relacao_cursos_tecnicos_competencia.pdf
 - Arte ENEM (descontos): /root/.openclaw/workspace/assets/unicorp/enem_descontos.jpg
-- (Pendente) Tabela de Cursos Pós-Graduação – Atualizada (PDF)
+- Tabela de Cursos Pós-Graduação – Atualizada: /root/.openclaw/workspace/assets/unicorp/tabela_cursos_pos_graduacao_atualizada.txt
 - Lista Tecnólogo Cursos Centro Universitário UNICORP FAAO: /root/.openclaw/workspace/assets/unicorp/lista_tecnologo_unicorp_faao.pdf
 
 ### 5.2 Regra: pedir por escrito

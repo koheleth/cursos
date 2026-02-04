@@ -1,0 +1,202 @@
+Categoria;Curso;CH
+
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Arbitragem e Mediação de Conflitos;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Compliance;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Administrativo;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Aduaneiro;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Ambiental;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Civil e Processual Civil;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Constitucional;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Contratual;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito de Família e Sucessões;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Digital;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito do Trabalho e Processual Trabalhista;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito dos Novos Negócios;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Educacional;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Eleitoral;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Empresarial;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Imobiliário;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Internacional;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Notarial e Registral;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Penal e Processual Penal;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Previdenciário;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Público Constitucional, Administrativo e Tributário;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Público Licitatório;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direito Tributário e Processual Tributário;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Direitos LGBT+;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Informática Forense;560h
+PÓS-GRADUAÇÕES EM DIREITO;Especialização em Segurança Pública e Política Criminal (Criminologia);560h
+
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Análises Clínicas e Diagnóstico Laboratorial;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Atenção e Cuidados com Idosos;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Atendimento na Unidade Básica de Saúde;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Atendimento na Unidade Básica de Saúde - Enfermagem;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Atendimento na Unidade Básica de Saúde - Farmácia;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Atendimento na Unidade Básica de Saúde - Nutrição;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Cuidados Básicos em Hospitais Municipais;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Enfermagem do Trabalho;560h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Enfermagem do Trabalho e Saúde Ocupacional;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Enfermagem Oncológica;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Estética e Cosmetologia;400h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Farmacologia Clínica;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Fisioterapia aplicada às atividades Físicas;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Fisioterapia em Geriatria e Gerontologia;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Fitoterapia e Suplementação Nutricional;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Nutrição Clínica;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Nutrição e Dietética;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Nutrição Esportiva;800h
+PÓS-GRADUAÇÕES EM SAÚDE;Especialização em Segurança do Paciente e Gestão dos Riscos Assistenciais;800h
+
+PÓS-GRADUAÇÕES EM PSICOLOGIA;Especialização em Avaliação Psicológica e Psicodiagnóstico;560h
+PÓS-GRADUAÇÕES EM PSICOLOGIA;Especialização em Neuropsicopedagogia;560h
+PÓS-GRADUAÇÕES EM PSICOLOGIA;Especialização em Neuropsicopedagogia Clínica e Institucional;720h
+PÓS-GRADUAÇÕES EM PSICOLOGIA;Especialização em Psicologia Hospitalar;560h
+
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia de Produção;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia Ambiental;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia Ambiental e Energias Renováveis;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia Ambiental e Saneamento Básico;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia da Manutenção;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia da Qualidade;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia de Negócios;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia de Redes e Segurança de Dados;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia de Segurança do Trabalho;640h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia de Software;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia de Suprimentos;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia Econômica e Financeira;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia Elétrica;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Engenharia Logística;560h
+PÓS-GRADUAÇÕES EM ENGENHARIA;Especialização em Indústria 4.0;560h
+
+PÓS-GRADUAÇÕES EM TIC;Especialização em Desenvolvimento Web;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Administração de Dados;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Administração de Redes;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Administração de Servidores Linux;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Administração de Servidores Windows;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Análise e Projeto de Software;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Ciência de Dados;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Desenvolvimento Mobile;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Inteligência Artificial;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Internet das Coisas;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Segurança da Informação;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Sistemas de Informações Gerenciais;560h
+PÓS-GRADUAÇÕES EM TIC;Especialização em Web Design;560h
+
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Especial;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação 5.0;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Alfabetização e Letramento;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Alfabetização, Letramento e Psicopedagogia;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Coordenação e Orientação Escolar;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Coordenação Educacional;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação a Distância;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Ambiental e Sustentabilidade;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Corporativa;640h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação de Jovens e Adultos;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação e Direitos Humanos;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Especial;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Financeira;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Inclusiva;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Inclusiva e Diversidade;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Educação Infantil;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da História e Geografia;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da Língua Espanhola;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da Língua Inglesa;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da Língua Portuguesa;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da Língua Portuguesa e Literatura;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da Literatura e Produção de Textos em Língua Espanhola;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da Literatura e Produção de Textos em Língua Inglesa;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino da Literatura e Produção de Textos em Língua Portuguesa;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino de Artes;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino de Ciências;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino de Geografia;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino de História;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Ensino de Matemática;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Letramento e Produção de Textos para o Ensino Fundamental;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Letras com Ênfase em Linguística;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em LIBRAS - Língua Brasileira de Sinais;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Língua Portuguesa - Redação e Oratória;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Metodologia do Ensino Superior nas Várias Modalidades;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Metodologias Ativas e Tecnologias Educacionais;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Neuroeducação;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Projetos Pedagógicos;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Psicomotricidade;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Psicomotricidade e Educação Especial;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Psicomotricidade na Educação Infantil;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Psicopedagogia em Educação Especial;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Psicopedagogia Escolar;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Secretariado Escolar;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Supervisão e Orientação Escolar;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Supervisão e Orientação Escolar em Educação Infantil;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Tecnologias Educacionais;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Transtornos e Problemas na Aprendizagem;560h
+PÓS-GRADUAÇÕES EM EDUCAÇÃO;Especialização em Tutoria em Educação a Distância;560h
+
+PÓS-GRADUAÇÕES EM SERVIÇO SOCIAL;Especialização em Serviço Social na Administração Pública;560h
+PÓS-GRADUAÇÕES EM SERVIÇO SOCIAL;Especialização em Serviço Social na Educação;440h
+PÓS-GRADUAÇÕES EM SERVIÇO SOCIAL;Especialização em Serviço Social na Saúde;560h
+PÓS-GRADUAÇÕES EM SERVIÇO SOCIAL;Especialização em Serviço Social no Terceiro Setor;560h
+
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Administração de Pessoal;800h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Administração Pública;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Auditoria Contábil;800h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Contabilidade Gerencial;800h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Controladoria Financeira;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Finanças Corporativas e Controladoria;800h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão Comercial e Vendas;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão de Custos;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão Financeira e Contábil;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão Pública;800h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão Empresarial;800h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão Jurídica;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Perícia e Auditoria Contábil;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Psicologia Organizacional e do Trabalho;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão Social;800h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Gestão Social Estratégica;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Liderança e Desenvolvimento de Pessoas;560h
+PÓS-GRADUAÇÕES EM MBA´s;MBA em Planejamento e Gestão no Trânsito;640h
+
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Agronegócios;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão Ambiental;800h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão Ambiental Sustentável;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão da Cadeia de Suprimentos;800h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão da Logística Empresarial;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão da Produção;800h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão de Processos;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão de Processos de Produção;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão de Projetos;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão em Construção Civil;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Modelagem e Gestão de Processos;800h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão de Startups;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão Estratégica e Inovação;800h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão do Processo de Inovação;560h
+MBA EM PROCESSOS E PRODUÇÕES;MBA em Gestão do Supply Chain;560h
+
+MBA EM MKT E TIC;MBA em Empreendedorismo e Marketing;560h
+MBA EM MKT E TIC;MBA em Gestão da Tecnologia da Informação;800h
+MBA EM MKT E TIC;MBA em Gestão da Tecnologia da Informação e Comunicação;560h
+MBA EM MKT E TIC;MBA em Gestão de Pessoal e Pagadoria;560h
+MBA EM MKT E TIC;MBA em Gestão de Pessoas e Talentos;800h
+MBA EM MKT E TIC;MBA em Gestão de Marketing Digital;800h
+MBA EM MKT E TIC;MBA em Gestão Estratégica de Pessoas;560h
+MBA EM MKT E TIC;MBA em Gestão Estratégica de Marketing;560h
+MBA EM MKT E TIC;MBA em Marketing Estratégico;800h
+MBA EM MKT E TIC;MBA em Marketing Político;560h
+
+MBA EM SAÚDE;MBA em Gestão em Psicologia Organizacional e do Trabalho;560h
+MBA EM SAÚDE;MBA em Gestão Farmacêutica;800h
+MBA EM SAÚDE;MBA em Gestão de Farmácias;560h
+MBA EM SAÚDE;MBA em Gestão de Farmácias e Drogarias;800h
+MBA EM SAÚDE;MBA em Gestão de Hospitais;560h
+MBA EM SAÚDE;MBA em Gestão Hospitalar;800h
+MBA EM SAÚDE;MBA em Gestão de Pandemias;560h
+MBA EM SAÚDE;MBA em Gestão da Saúde;800h
+MBA EM SAÚDE;MBA em Gestão da Saúde Municipal;800h
+MBA EM SAÚDE;MBA em Gestão de Serviços Laboratoriais;800h
+MBA EM SAÚDE;MBA em Gestão de Unidades Oncológicas;800h
+MBA EM SAÚDE;MBA em Gestão em Saúde;800h
+MBA EM SAÚDE;MBA em Gestão em Saúde Pública;800h
+MBA EM SAÚDE;MBA em Gestão Estratégica em Saúde;560h
+
+MBA EM EDUCAÇÃO;MBA em Gestão e Orientação Escolar;560h
+MBA EM EDUCAÇÃO;MBA em Gestão Educacional;560h
+MBA EM EDUCAÇÃO;MBA em Gestão Educacional Pública;560h
