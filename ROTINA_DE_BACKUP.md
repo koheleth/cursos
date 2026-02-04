@@ -32,6 +32,7 @@
 - Atendimento a clientes: **sucinto, sintético, objetivo e humano**.
 - Sempre perguntar **dia e horário** para retornar.
 - Para clientes, **mostrar apenas o preço de venda ao cliente** (nunca o custo/bolsa).
+- Quando um cliente perguntar sobre cursos do UNICORP, **informar normalmente, sem citar o nome UNICORP**.
 
 ## 2) Regra de WhatsApp: “tirar o 9”
 - Ao enviar mensagem/ligar: tentar primeiro **sem o 9**.
