@@ -30,10 +30,19 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Anna Santa Cruz (chefe): +55 81 99227-3616
 - Ewerton (estagiário): +55 81 98453-5207
 
+### Estratégia Cursos (contato)
+- Secretaria Estratégia Cursos: +55 81 99621-1877
+
 ### Cobrança
 - Henri Oliveira (estagiário): +55 81 9999-3743
 - Sheila Leite (cobrança – ADM Sólida): +55 81 98872-6658
 - Robéria Morais (cobrança): +55 81 97313-4776
+
+### Contatos gerais
+- Urgel: +55 81 9600-0764 (sócio na área de construção civil)
+- Michael Bull (Sicred): +55 81 99170-1023
+- Aura Spa: +55 81 8933-7340
+- Alex Blablacars Rec > Car: +55 81 99659-6107
 
 ## Família — contatos
 - Mãe: Mary C. C. Chaves — +55 81 9206-2323 / +55 81 8373-0727
@@ -43,6 +52,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 ## Polos (contatos)
 - Polo Recife Estratégia Educação — JID: 120363369341436636@g.us
 - Polo UNICORP — Cinthia Eduarda (Gestora): +55 83 8818-3895
+- Hellen Thays (UNICORP Faculdades): +55 83 8215-2172
 
 **Regra crítica:** tratar os polos como totalmente separados. Nunca mencionar um polo ao outro, mesmo quando o curso for o mesmo.
 
@@ -104,7 +114,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Luis Black (Black Black Black Granito): +55 81 9987-5958
 - Atyla (Síndico Ipês – Caruaru): +55 81 9720-5039
 - André (Síndico B07): +55 81 9767-2174
-- Taciana Bezerra da Silva (Taciana Da Elite) (Síndica): +55 81 9349-0606 | tacianasindica@gmail.com. Aguardando dados e comprovante do Combo Excel+Finanças.
+- Taciana Bezerra da Silva (Taciana Da Elite) (Síndica): +55 81 9349-0606 | tacianasindica@gmail.com. Dados completos enviados ao Polo; aguardando matrícula (Combo Excel+Finanças).
 - Adriano (Adriano Síndico) (Administrador - Adm. Estratégica): +55 81 7915-0113. Escolheu versão longa, aguardando link/grade do Polo.
 - Andréa Azevedo (Síndica Itambé): +55 81 9183-4441
 - Antonio (Síndico Jaqueira): +55 81 9974-9322
