@@ -145,6 +145,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Magda (Grupo Camp Camp Orig) — cliente: técnico por competência (Edificações) e filho (Segurança do Trabalho): +55 81 9345-4230
 - Édson (Abafa Gesso) — cliente: técnico por competência em Refrigeração (5x R$ 350; 1ª parcela pendente; documentação pendente): +55 81 8556-9072
 - João (Pedreiro Ailton) — cliente: técnico por competência em Edificações (experiência 30+ anos; vai visitar o escritório): +55 81 8565-6810
+- Marcos Pereira de Farias Jr — cliente: técnico em Eletrotécnica (aguardando juntar valor): +55 81 9557-4292
 
 ## Condomínio Jardim Liberdade — Conselho Fiscal (contatos)
 - Edgar (Casa 23): +55 81 99873-2317
