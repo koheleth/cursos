@@ -143,6 +143,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Paulo (Síndico Praia Bela II): +55 81 9509-5757
 - André (Eng. Darci Projetos) — cliente: técnico por competência em Refrigeração (doc aprovada; aguardando pagamento): +55 81 9919-2425
 - Magda (Grupo Camp Camp Orig) — cliente: técnico por competência (Edificações) e filho (Segurança do Trabalho): +55 81 9345-4230
+- Édson (Abafa Gesso) — cliente: técnico por competência em Refrigeração (5x R$ 350; 1ª parcela pendente; documentação pendente): +55 81 8556-9072
 
 ## Condomínio Jardim Liberdade — Conselho Fiscal (contatos)
 - Edgar (Casa 23): +55 81 99873-2317
