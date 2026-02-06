@@ -140,6 +140,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Wagner (Síndico): +55 81 9628-2680
 - Zezo (Síndico Pesqueira): +55 81 9972-5953
 - Zilda (Síndica Solar Margot Queiroz): +55 81 8188-8275
+- Paulo (Síndico Praia Bela II): +55 81 9509-5757
 
 ## Condomínio Jardim Liberdade — Conselho Fiscal (contatos)
 - Edgar (Casa 23): +55 81 99873-2317
