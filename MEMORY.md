@@ -142,6 +142,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Zilda (Síndica Solar Margot Queiroz): +55 81 8188-8275
 - Paulo (Síndico Praia Bela II): +55 81 9509-5757
 - André (Eng. Darci Projetos) — cliente: técnico por competência em Refrigeração (doc aprovada; aguardando pagamento): +55 81 9919-2425
+- Magda (Grupo Camp Camp Orig) — cliente: técnico por competência (Edificações) e filho (Segurança do Trabalho): +55 81 9345-4230
 
 ## Condomínio Jardim Liberdade — Conselho Fiscal (contatos)
 - Edgar (Casa 23): +55 81 99873-2317
