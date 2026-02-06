@@ -147,6 +147,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - João (Pedreiro Ailton) — cliente: técnico por competência em Edificações (experiência 30+ anos; vai visitar o escritório): +55 81 8565-6810
 - Marcos Pereira de Farias Jr — cliente: técnico em Eletrotécnica (aguardando juntar valor): +55 81 9557-4292
 - Gilmar (Trabalhador) — cliente: técnico por competência em Edificações (experiência >2 anos; documentação pendente): +55 81 9947-5842
+- Rodrigo Patricio — cliente: técnico em Eletrotécnica; interessado em Tecnólogo em Sistemas Elétricos: +55 81 8841-8088
 
 ## Condomínio Jardim Liberdade — Conselho Fiscal (contatos)
 - Edgar (Casa 23): +55 81 99873-2317
