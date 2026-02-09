@@ -40,6 +40,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 
 ### Contatos gerais
 - Urgel: +55 81 9600-0764 (sócio na área de construção civil)
+- Jorge Cajueiro (Mercado) — dono do mercado do projeto: +55 81 9891-9163
 - Michael Bull (Sicred): +55 81 99170-1023
 - Aura Spa: +55 81 8933-7340
 - Alex Blablacars Rec > Car: +55 81 99659-6107
