@@ -143,6 +143,7 @@ Sempre que o usuário pedir algo relacionado ao escritório (mensagens, organiza
 - Zezo (Síndico Pesqueira): +55 81 9972-5953
 - Zilda (Síndica Solar Margot Queiroz): +55 81 8188-8275
 - Paulo (Síndico Praia Bela II): +55 81 9509-5757
+- João Rodrigo (Síndico): +55 81 9538-1116
 - André (Eng. Darci Projetos) — cliente: técnico por competência em Refrigeração (doc aprovada; aguardando pagamento): +55 81 9919-2425
 - Magda (Grupo Camp Camp Orig) — cliente: técnico por competência (Edificações) e filho (Segurança do Trabalho): +55 81 9345-4230
 - Édson (Abafa Gesso) — cliente: técnico por competência em Refrigeração (5x R$ 350; 1ª parcela pendente; documentação pendente): +55 81 8556-9072
