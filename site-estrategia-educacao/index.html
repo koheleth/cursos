@@ -10,7 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{--bg:#0f172a;--card:#111827;--txt:#e5e7eb;--muted:#94a3b8;--brand:#22c55e;--brand2:#0ea5e9;--warn:#f59e0b}
-    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#020617,#0b1120);color:var(--txt)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#020617,#0b1120);color:var(--txt)}
     .wrap{max-width:1100px;margin:0 auto;padding:20px}
     .hero{background:radial-gradient(circle at top right,#1d4ed8 0,#0f172a 40%);border:1px solid #1f2937;border-radius:18px;padding:28px}
     h1{font-size:clamp(28px,4vw,46px);margin:0 0 10px;font-weight:800}
@@ -21,15 +22,30 @@
     .btn{display:inline-block;text-decoration:none;padding:13px 18px;border-radius:12px;font-weight:800}
     .btn-whats{background:var(--brand);color:#052e16}
     .btn-catalogo{background:#1f2937;color:#fff;border:1px solid #374151}
+
     h2{margin:30px 0 12px;font-size:28px}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-    .card{background:rgba(17,24,39,.85);border:1px solid #1f2937;border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+    .card{background:rgba(17,24,39,.85);border:1px solid #1f2937;border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;overflow:hidden}
+    .thumb{width:100%;height:150px;object-fit:cover;border-radius:10px;border:1px solid #374151}
     .card h3{margin:0;font-size:18px}
     .meta{color:var(--muted);font-size:14px}
     .offer{font-size:14px;background:#3f2a02;color:#fcd34d;border:1px solid #78350f;padding:8px;border-radius:10px}
     .card a{margin-top:auto;color:#7dd3fc;font-weight:700;text-decoration:none}
+
+    .lead-box{margin-top:26px;background:#0b1220;border:1px solid #1f2937;border-radius:14px;padding:18px}
+    .lead-box p{margin-top:0;color:var(--muted)}
+    .form{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .form .full{grid-column:1/-1}
+    input,select,button{width:100%;padding:12px 10px;border-radius:10px;border:1px solid #334155;background:#0f172a;color:#e5e7eb;font-size:15px}
+    button{background:var(--brand);color:#052e16;font-weight:800;border:none;cursor:pointer}
+
+    .publish{margin-top:22px;background:#0b1220;border:1px dashed #334155;border-radius:14px;padding:16px}
+    .publish code{background:#111827;padding:2px 6px;border-radius:6px}
+
     .footer{margin:30px 0 10px;color:var(--muted);font-size:13px}
     .sticky{position:fixed;right:16px;bottom:16px;background:var(--brand);color:#052e16;text-decoration:none;font-weight:800;padding:14px 16px;border-radius:999px;box-shadow:0 10px 30px rgba(34,197,94,.35)}
+
+    @media(max-width:700px){.form{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -51,27 +67,7 @@
     <h2 id="cursos">Cursos em destaque</h2>
     <div class="grid">
       <article class="card">
-        <h3>ChatGPT para Trabalho (Prof L2)</h3>
-        <p class="meta">80h • Administrativo</p>
-        <p class="offer">Condição com oferta no WhatsApp.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=ChatGPT%20para%20Trabalho%20(Prof%20L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
-        <h3>Administração Estratégica (L2)</h3>
-        <p class="meta">Gestão e decisão estratégica</p>
-        <p class="offer">+ Bônus de curso extra em campanhas.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administra%C3%A7%C3%A3o%20Estrat%C3%A9gica%20(L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
-        <h3>Administração de Condomínios (Prof. L2)</h3>
-        <p class="meta">80h • Síndicos e gestão condominial</p>
-        <p class="offer">No site é mais caro. Negocie direto no WhatsApp.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administra%C3%A7%C3%A3o%20de%20Condom%C3%ADnios%20(Prof.%20L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
+        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/245.jpg" alt="Administração do Tempo" />
         <h3>Administração do Tempo (Prof. L2)</h3>
         <p class="meta">80h • Produtividade</p>
         <p class="offer">Oferta especial por tempo limitado.</p>
@@ -79,6 +75,31 @@
       </article>
 
       <article class="card">
+        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/260.jpg" alt="Administração Estratégica" />
+        <h3>Administração Estratégica (L2)</h3>
+        <p class="meta">Gestão e decisão estratégica</p>
+        <p class="offer">+ Bônus de curso extra em campanhas.</p>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administra%C3%A7%C3%A3o%20Estrat%C3%A9gica%20(L2)" target="_blank">Abrir curso</a>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/246.jpg" alt="Administração de Condomínios" />
+        <h3>Administração de Condomínios (Prof. L2)</h3>
+        <p class="meta">80h • Síndicos e gestão condominial</p>
+        <p class="offer">No site é mais caro. Negocie direto no WhatsApp.</p>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administra%C3%A7%C3%A3o%20de%20Condom%C3%ADnios%20(Prof.%20L2)" target="_blank">Abrir curso</a>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/263.jpg" alt="ChatGPT para Trabalho" />
+        <h3>ChatGPT para Trabalho (Prof L2)</h3>
+        <p class="meta">80h • Administrativo</p>
+        <p class="offer">Condição com oferta no WhatsApp.</p>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=ChatGPT%20para%20Trabalho%20(Prof%20L2)" target="_blank">Abrir curso</a>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/240.jpg" alt="Ciclo PDCA" />
         <h3>Ciclo PDCA – Planejamento e Controle</h3>
         <p class="meta">Melhoria contínua e processos</p>
         <p class="offer">Condição comercial no atendimento.</p>
@@ -86,6 +107,7 @@
       </article>
 
       <article class="card">
+        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/119.jpg" alt="Energia Solar" />
         <h3>Energia Solar (L1)</h3>
         <p class="meta">Entrada rápida no mercado solar</p>
         <p class="offer">Campanhas com preço especial.</p>
@@ -93,9 +115,47 @@
       </article>
     </div>
 
+    <section class="lead-box" id="interesse">
+      <h2>Quero matrícula com oferta</h2>
+      <p>Preencha e toque em <strong>Enviar no WhatsApp</strong>. A mensagem já vai pronta para o atendimento.</p>
+      <form class="form" onsubmit="enviarLead(event)">
+        <input id="nome" required placeholder="Seu nome" />
+        <input id="telefone" required placeholder="Seu WhatsApp" />
+        <select id="curso" class="full" required>
+          <option value="">Selecione o curso de interesse</option>
+          <option>ChatGPT para Trabalho (Prof L2)</option>
+          <option>Administração Estratégica (L2)</option>
+          <option>Administração de Condomínios (Prof. L2)</option>
+          <option>Administração do Tempo (Prof. L2)</option>
+          <option>Ciclo PDCA – Planejamento e Controle</option>
+          <option>Energia Solar (L1)</option>
+        </select>
+        <button class="full" type="submit">Enviar no WhatsApp</button>
+      </form>
+    </section>
+
+    <section class="publish">
+      <h3>Publicação rápida</h3>
+      <p>Para publicar no servidor, você pode copiar essa pasta e servir com Nginx/Apache.</p>
+      <p><code>/root/.openclaw/workspace/site-estrategia-educacao/</code></p>
+      <p>Arquivo principal: <code>index.html</code></p>
+    </section>
+
     <p class="footer">Estratégia Educação • Atendimento comercial: (81) 99110-2501</p>
   </div>
 
   <a class="sticky" href="https://wa.me/5581991102501" target="_blank" rel="noopener">📲 Quero minha vaga</a>
+
+  <script>
+    function enviarLead(e){
+      e.preventDefault();
+      const nome=document.getElementById('nome').value.trim();
+      const tel=document.getElementById('telefone').value.trim();
+      const curso=document.getElementById('curso').value.trim();
+      const msg=`Olá! Meu nome é ${nome}.\nTenho interesse no curso: ${curso}.\nMeu WhatsApp: ${tel}.\nQuero matrícula com condição de oferta.`;
+      const url=`https://wa.me/5581991102501?text=${encodeURIComponent(msg)}`;
+      window.open(url,'_blank');
+    }
+  </script>
 </body>
 </html>
