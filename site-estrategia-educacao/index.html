@@ -3,152 +3,712 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Estratégia Educação | Cursos com Oferta</title>
-  <meta name="description" content="Cursos profissionalizantes com condição especial. Matrícula rápida pelo WhatsApp." />
+  <title>Estratégia Educação | Catálogo Completo</title>
+  <meta name="description" content="Catálogo completo de cursos com condição especial no WhatsApp." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root{--bg:#0f172a;--card:#111827;--txt:#e5e7eb;--muted:#94a3b8;--brand:#22c55e;--brand2:#0ea5e9;--warn:#f59e0b}
+    :root{--txt:#e5e7eb;--muted:#94a3b8;--brand:#22c55e}
     *{box-sizing:border-box}
     body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#020617,#0b1120);color:var(--txt)}
-    .wrap{max-width:1100px;margin:0 auto;padding:20px}
-    .hero{background:radial-gradient(circle at top right,#1d4ed8 0,#0f172a 40%);border:1px solid #1f2937;border-radius:18px;padding:28px}
-    h1{font-size:clamp(28px,4vw,46px);margin:0 0 10px;font-weight:800}
-    .sub{color:var(--muted);font-size:18px;line-height:1.5}
-    .badges{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
-    .badge{background:#052e16;border:1px solid #14532d;color:#86efac;padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700}
-    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
-    .btn{display:inline-block;text-decoration:none;padding:13px 18px;border-radius:12px;font-weight:800}
+    .wrap{max-width:1200px;margin:0 auto;padding:20px}
+    .hero{background:radial-gradient(circle at top right,#1d4ed8 0,#0f172a 45%);border:1px solid #1f2937;border-radius:18px;padding:24px}
+    h1{font-size:clamp(28px,4vw,46px);margin:0 0 8px;font-weight:800}
+    .sub{color:var(--muted)}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:800}
     .btn-whats{background:var(--brand);color:#052e16}
-    .btn-catalogo{background:#1f2937;color:#fff;border:1px solid #374151}
-
-    h2{margin:30px 0 12px;font-size:28px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-    .card{background:rgba(17,24,39,.85);border:1px solid #1f2937;border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;overflow:hidden}
-    .thumb{width:100%;height:150px;object-fit:cover;border-radius:10px;border:1px solid #374151}
-    .card h3{margin:0;font-size:18px}
-    .meta{color:var(--muted);font-size:14px}
-    .offer{font-size:14px;background:#3f2a02;color:#fcd34d;border:1px solid #78350f;padding:8px;border-radius:10px}
-    .card a{margin-top:auto;color:#7dd3fc;font-weight:700;text-decoration:none}
-
-    .lead-box{margin-top:26px;background:#0b1220;border:1px solid #1f2937;border-radius:14px;padding:18px}
-    .lead-box p{margin-top:0;color:var(--muted)}
-    .form{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    .form .full{grid-column:1/-1}
-    input,select,button{width:100%;padding:12px 10px;border-radius:10px;border:1px solid #334155;background:#0f172a;color:#e5e7eb;font-size:15px}
-    button{background:var(--brand);color:#052e16;font-weight:800;border:none;cursor:pointer}
-
-    .publish{margin-top:22px;background:#0b1220;border:1px dashed #334155;border-radius:14px;padding:16px}
-    .publish code{background:#111827;padding:2px 6px;border-radius:6px}
-
-    .footer{margin:30px 0 10px;color:var(--muted);font-size:13px}
+    .toolbar{display:flex;gap:10px;align-items:center;margin:20px 0 14px;flex-wrap:wrap}
+    input{flex:1;min-width:240px;padding:12px;border-radius:10px;border:1px solid #334155;background:#0f172a;color:#e5e7eb}
+    .count{color:var(--muted);font-size:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+    .card{background:#111827;border:1px solid #1f2937;border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}
+    .card h3{margin:0;font-size:15px;line-height:1.35}
+    .card a{margin-top:auto;color:#7dd3fc;text-decoration:none;font-weight:700}
     .sticky{position:fixed;right:16px;bottom:16px;background:var(--brand);color:#052e16;text-decoration:none;font-weight:800;padding:14px 16px;border-radius:999px;box-shadow:0 10px 30px rgba(34,197,94,.35)}
-
-    @media(max-width:700px){.form{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <div class="wrap">
     <section class="hero">
       <h1>Estratégia Educação</h1>
-      <p class="sub">Cursos com foco prático, certificado e <strong>condição especial</strong>. No site oficial o valor é mais caro — fale direto no WhatsApp para matrícula com oferta.</p>
-      <div class="badges">
-        <span class="badge">✅ Certificado</span>
-        <span class="badge">✅ 100% Online</span>
-        <span class="badge">✅ Suporte</span>
-      </div>
+      <p class="sub">Catálogo completo de cursos. No site oficial o valor é mais caro. Para condição especial, fale no WhatsApp.</p>
       <div class="cta">
         <a class="btn btn-whats" href="https://wa.me/5581991102501" target="_blank" rel="noopener">Falar no WhatsApp</a>
-        <a class="btn btn-catalogo" href="#cursos">Ver cursos</a>
       </div>
     </section>
 
-    <h2 id="cursos">Cursos em destaque</h2>
-    <div class="grid">
-      <article class="card">
-        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/245.jpg" alt="Administração do Tempo" />
-        <h3>Administração do Tempo (Prof. L2)</h3>
-        <p class="meta">80h • Produtividade</p>
-        <p class="offer">Oferta especial por tempo limitado.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administra%C3%A7%C3%A3o%20do%20Tempo%20(Prof.%20L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
-        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/260.jpg" alt="Administração Estratégica" />
-        <h3>Administração Estratégica (L2)</h3>
-        <p class="meta">Gestão e decisão estratégica</p>
-        <p class="offer">+ Bônus de curso extra em campanhas.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administra%C3%A7%C3%A3o%20Estrat%C3%A9gica%20(L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
-        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/246.jpg" alt="Administração de Condomínios" />
-        <h3>Administração de Condomínios (Prof. L2)</h3>
-        <p class="meta">80h • Síndicos e gestão condominial</p>
-        <p class="offer">No site é mais caro. Negocie direto no WhatsApp.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administra%C3%A7%C3%A3o%20de%20Condom%C3%ADnios%20(Prof.%20L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
-        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/263.jpg" alt="ChatGPT para Trabalho" />
-        <h3>ChatGPT para Trabalho (Prof L2)</h3>
-        <p class="meta">80h • Administrativo</p>
-        <p class="offer">Condição com oferta no WhatsApp.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=ChatGPT%20para%20Trabalho%20(Prof%20L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
-        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/240.jpg" alt="Ciclo PDCA" />
-        <h3>Ciclo PDCA – Planejamento e Controle</h3>
-        <p class="meta">Melhoria contínua e processos</p>
-        <p class="offer">Condição comercial no atendimento.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Curso%20do%20ciclo%20PDCA%20-%20Planejamento%20e%20Controle%20(PROF%20L2)" target="_blank">Abrir curso</a>
-      </article>
-
-      <article class="card">
-        <img class="thumb" src="https://www.apptreinamentos.com/metodo/imagemcursos/313.jpg" alt="Energia Solar" />
-        <h3>Energia Solar (L1)</h3>
-        <p class="meta">Entrada rápida no mercado solar</p>
-        <p class="offer">Campanhas com preço especial.</p>
-        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Energia%20Solar%20(L1)" target="_blank">Abrir curso</a>
-      </article>
+    <div class="toolbar">
+      <input id="q" placeholder="Buscar curso pelo nome..." />
+      <span class="count" id="count">161 cursos</span>
     </div>
 
-    <section class="lead-box" id="interesse">
-      <h2>Quero matrícula com oferta</h2>
-      <p>Preencha e toque em <strong>Enviar no WhatsApp</strong>. A mensagem já vai pronta para o atendimento.</p>
-      <form class="form" onsubmit="enviarLead(event)">
-        <input id="nome" required placeholder="Seu nome" />
-        <input id="telefone" required placeholder="Seu WhatsApp" />
-        <select id="curso" class="full" required>
-          <option value="">Selecione o curso de interesse</option>
-          <option>ChatGPT para Trabalho (Prof L2)</option>
-          <option>Administração Estratégica (L2)</option>
-          <option>Administração de Condomínios (Prof. L2)</option>
-          <option>Administração do Tempo (Prof. L2)</option>
-          <option>Ciclo PDCA – Planejamento e Controle</option>
-          <option>Energia Solar (L1)</option>
-        </select>
-        <button class="full" type="submit">Enviar no WhatsApp</button>
-      </form>
-    </section>
-
-    <p class="footer">Estratégia Educação • Atendimento comercial: (81) 99110-2501</p>
+    <div class="grid" id="grid">
+      <article class="card" data-name="administração mercado de trabalho">
+        <h3>Administração Mercado de trabalho</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administração Mercado de trabalho" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="elaboração de currículo">
+        <h3>Elaboração de Currículo</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Elaboração de Currículo" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="empreendedorismo">
+        <h3>Empreendedorismo</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Empreendedorismo" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão em rh">
+        <h3>Gestão em RH</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão em RH" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="operador de caixa">
+        <h3>Operador de Caixa</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Operador de Caixa" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="agente de portaria">
+        <h3>Agente de Portaria</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Agente de Portaria" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="logística 4.0">
+        <h3>Logística 4.0</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Logística 4.0" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="fiscal de loja">
+        <h3>Fiscal de Loja</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Fiscal de Loja" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="tbo - treinamento básico operacional">
+        <h3>TBO - Treinamento Básico Operacional</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=TBO - Treinamento Básico Operacional" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="hotelaria e turismo">
+        <h3>Hotelaria e Turismo</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Hotelaria e Turismo" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="conhecimentos bancários">
+        <h3>Conhecimentos Bancários</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Conhecimentos Bancários" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="auxiliar de creche com ênfase na lei lucas">
+        <h3>Auxiliar de Creche com ênfase na Lei Lucas</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Auxiliar de Creche com ênfase na Lei Lucas" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="administração do tempo (prof. l2)">
+        <h3>Administração do Tempo (Prof. L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administração do Tempo (Prof. L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="administração de condomínios (prof. l2)">
+        <h3>Administração de Condomínios (Prof. L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administração de Condomínios (Prof. L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="auxiliar de escritório na prática (l2)">
+        <h3>Auxiliar de Escritório na Prática (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Auxiliar de Escritório na Prática (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="curso do ciclo pdca - planejamento e controle (prof l2)">
+        <h3>Curso do ciclo PDCA - Planejamento e Controle (PROF L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Curso do ciclo PDCA - Planejamento e Controle (PROF L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="planejamento estratégico (prof l2)">
+        <h3>Planejamento Estratégico (PROF L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Planejamento Estratégico (PROF L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="plano de negócios  (prof l2)">
+        <h3>Plano de Negócios  (PROF L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Plano de Negócios  (PROF L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão de processos (l2)">
+        <h3>Gestão de Processos (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão de Processos (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="produtividade (l2)">
+        <h3>Produtividade (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Produtividade (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="secretariado executivo ( prof l2)">
+        <h3>Secretariado Executivo ( PROF L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Secretariado Executivo ( PROF L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="administração estratégica (l2)">
+        <h3>Administração Estratégica (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administração Estratégica (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="administração empresarial (l2)">
+        <h3>Administração Empresarial (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administração Empresarial (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como trabalhar home office (l2)">
+        <h3>Como Trabalhar Home Office (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Trabalhar Home Office (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="curso de compliance (l2)">
+        <h3>Curso de Compliance (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Curso de Compliance (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="consultoria organizacional (l2)">
+        <h3>Consultoria Organizacional (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Consultoria Organizacional (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="eficiência operacional (l2)">
+        <h3>Eficiência Operacional (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Eficiência Operacional (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="employer branding (l2)">
+        <h3>Employer Branding (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Employer Branding (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="empreender em pequenos negócios (l2)">
+        <h3>Empreender em Pequenos Negócios (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Empreender em Pequenos Negócios (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão de ppcpm produção e capacidade (l2)">
+        <h3>Gestão de PPCPM Produção e Capacidade (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão de PPCPM Produção e Capacidade (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão do tempo (l2)">
+        <h3>Gestão do Tempo (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão do Tempo (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="logística empresarial (l2)">
+        <h3>Logística Empresarial (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Logística Empresarial (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="mediador escolar (l1)">
+        <h3>Mediador Escolar (L1)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Mediador Escolar (L1)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="ponte rolante (l1)">
+        <h3>Ponte Rolante (L1)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Ponte Rolante (L1)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="barbeiro (l1)">
+        <h3>Barbeiro (L1)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Barbeiro (L1)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="energia solar (l1)">
+        <h3>Energia Solar (L1)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Energia Solar (L1)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="matemática (prof. l1)">
+        <h3>Matemática (Prof. L1)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Matemática (Prof. L1)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="inteligência emocional (l2)">
+        <h3>Inteligência Emocional (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Inteligência Emocional (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="pnl - programação neurolinguística (l2)">
+        <h3>PNL - Programação Neurolinguística (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=PNL - Programação Neurolinguística (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="tenha uma escola ou polo apptreinamentos home office">
+        <h3>Tenha uma Escola ou Polo AppTreinamentos Home Office</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Tenha uma Escola ou Polo AppTreinamentos Home Office" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="tenha uma escola ou polo apptreinamentos">
+        <h3>Tenha uma Escola ou Polo AppTreinamentos</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Tenha uma Escola ou Polo AppTreinamentos" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="espanhol">
+        <h3>Espanhol</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Espanhol" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="windows 11 kids (l1)">
+        <h3>Windows 11 Kids (L1)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Windows 11 Kids (L1)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="criação de app android e ios (l2)">
+        <h3>Criação de App Android e iOS (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Criação de App Android e iOS (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-35 treinamento de trabalho em altura - reciclagem">
+        <h3>NR-35 Treinamento de Trabalho em Altura - RECICLAGEM</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR-35 Treinamento de Trabalho em Altura - RECICLAGEM" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-34 capacitação em condições seguras e meio ambiente de trabalho na indústria - reciclagem">
+        <h3>NR-34 Capacitação em Condições Seguras e Meio Ambiente de Trabalho na Indústria - Reciclagem</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR-34 Capacitação em Condições Seguras e Meio Ambiente de Trabalho na Indústria - Reciclagem" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-33 curso reciclagem em espaço confinado">
+        <h3>NR-33 CURSO RECICLAGEM EM ESPAÇO CONFINADO</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR-33 CURSO RECICLAGEM EM ESPAÇO CONFINADO" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-35 treinamento de trabalho em altura - capacitação">
+        <h3>NR-35 Treinamento de Trabalho em Altura - Capacitação</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR-35 Treinamento de Trabalho em Altura - Capacitação" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-34 capacitação em condições seguras e meio ambiente de trabalho na indústria">
+        <h3>NR-34 Capacitação em Condições Seguras e Meio Ambiente de Trabalho na Indústria</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR-34 Capacitação em Condições Seguras e Meio Ambiente de Trabalho na Indústria" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-33 capacitação em espaço confinado">
+        <h3>NR-33 CAPACITAÇÃO EM ESPAÇO CONFINADO</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR-33 CAPACITAÇÃO EM ESPAÇO CONFINADO" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="administração hospitalar na prática (prof l2)">
+        <h3>Administração Hospitalar na Prática (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administração Hospitalar na Prática (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="educação alimentar (prof l2)">
+        <h3>Educação Alimentar (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Educação Alimentar (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="aleitamento materno (prof l2)">
+        <h3>Aleitamento Materno (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Aleitamento Materno (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como abrir um restaurante (l2 prof.)">
+        <h3>Como Abrir um Restaurante (L2 Prof.)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Abrir um Restaurante (L2 Prof.)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como administrar micro e pequenas empresas (l2)">
+        <h3>Como Administrar Micro e Pequenas Empresas (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Administrar Micro e Pequenas Empresas (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como elaborar projetos sociais (prof l2)">
+        <h3>Como Elaborar Projetos Sociais (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Elaborar Projetos Sociais (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como montar um food truck (prof l2)">
+        <h3>Como Montar um Food Truck (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Montar um Food Truck (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="jornalismo">
+        <h3>Jornalismo</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Jornalismo" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="eficiência operacional: origem, evolução e futuro (prof l2)">
+        <h3>Eficiência Operacional: Origem, Evolução e Futuro (PROF L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Eficiência Operacional: Origem, Evolução e Futuro (PROF L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="assistência de enfermagem ao paciente com hiv (prof l2)">
+        <h3>Assistência de Enfermagem ao Paciente com HIV (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Assistência de Enfermagem ao Paciente com HIV (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="práticas de sustentabilidade (prof l2)">
+        <h3>Práticas de Sustentabilidade (PROF L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Práticas de Sustentabilidade (PROF L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="produção de música eletrônica - dj (prof l2)">
+        <h3>Produção de Música Eletrônica - DJ (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Produção de Música Eletrônica - DJ (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="robótica">
+        <h3>Robótica</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Robótica" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como elaborar contratos (prof l2)">
+        <h3>Como elaborar contratos (PROF L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como elaborar contratos (PROF L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="inglês interactive english">
+        <h3>Inglês Interactive English</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Inglês Interactive English" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="direito penal (prof l2)">
+        <h3>Direito Penal (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Direito Penal (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="direito empresarial (prof l2)">
+        <h3>Direito Empresarial (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Direito Empresarial (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-10 serviços e instalações elétricas capacitação l1">
+        <h3>NR-10 Serviços e Instalações Elétricas Capacitação L1</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR-10 Serviços e Instalações Elétricas Capacitação L1" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="literatura">
+        <h3>Literatura</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Literatura" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="corretor de imóveis">
+        <h3>Corretor de Imóveis</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Corretor de Imóveis" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="combo primeiros socorros na escola">
+        <h3>Combo Primeiros Socorros na Escola</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Combo Primeiros Socorros na Escola" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="combo enem dos concursos públicos (l2)">
+        <h3>Combo ENEM dos Concursos Públicos (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Combo ENEM dos Concursos Públicos (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão comportamental (prof. l2)">
+        <h3>Gestão Comportamental (Prof. L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão Comportamental (Prof. L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="desenvolvimento socioemocional (prof l2)">
+        <h3>Desenvolvimento Socioemocional (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Desenvolvimento Socioemocional (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="comunicação de alta performance (prof l2)">
+        <h3>Comunicação de Alta Performance (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Comunicação de Alta Performance (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="mindset digital (prof. l2)">
+        <h3>Mindset Digital (Prof. L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Mindset Digital (Prof. L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="mindfulness (prof l2)">
+        <h3>Mindfulness (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Mindfulness (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="relações interpessoais no trabalho na prática (prof l2)">
+        <h3>Relações Interpessoais no Trabalho na Prática (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Relações Interpessoais no Trabalho na Prática (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="soft skills e hard skills (prof l2)">
+        <h3>Soft Skills e Hard Skills (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Soft Skills e Hard Skills (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como desenvolver a inteligência social (prof l2)">
+        <h3>Como Desenvolver a Inteligência Social (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Desenvolver a Inteligência Social (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como falar em público (l2)">
+        <h3>Como Falar em Público (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Falar em Público (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="como organizar o orçamento familiar (prof l2)">
+        <h3>Como Organizar o Orçamento Familiar (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Como Organizar o Orçamento Familiar (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão de custos (prof l2)">
+        <h3>Gestão de Custos (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão de Custos (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="combo social para primeiro emprego (prof. l1)">
+        <h3>Combo Social para Primeiro Emprego (Prof. L1)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Combo Social para Primeiro Emprego (Prof. L1)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="yoga (l2 prof)">
+        <h3>Yoga (L2 Prof)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Yoga (L2 Prof)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="treinamento funcional (prof l2)">
+        <h3>Treinamento Funcional (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Treinamento Funcional (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="obesidade e atividade física (prof l2)">
+        <h3>Obesidade e Atividade Física (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Obesidade e Atividade Física (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="musculação (prof l2)">
+        <h3>Musculação (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Musculação (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="atividade física no envelhecimento (prof l2)">
+        <h3>Atividade Física no Envelhecimento (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Atividade Física no Envelhecimento (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="maquetes arquitetônicas (l2 prof.)">
+        <h3>Maquetes Arquitetônicas (L2 Prof.)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Maquetes Arquitetônicas (L2 Prof.)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="mecânica industrial (prof l2)">
+        <h3>Mecânica Industrial (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Mecânica Industrial (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="mecatrônica (prof l2)">
+        <h3>Mecatrônica (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Mecatrônica (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nrs 18 e 21 (prof l2)">
+        <h3>NRs 18 e 21 (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NRs 18 e 21 (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="paisagismo (prof l2)">
+        <h3>Paisagismo (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Paisagismo (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="sketchup para arquitetura (prof l2)">
+        <h3>SketchUp para Arquitetura (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=SketchUp para Arquitetura (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="v-ray (prof l2)">
+        <h3>V-Ray (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=V-Ray (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="atenção farmacêutica (prof l2)">
+        <h3>Atenção Farmacêutica (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Atenção Farmacêutica (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="balconista de farmácia (prof l2)">
+        <h3>Balconista de Farmácia (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Balconista de Farmácia (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="farmacologia geral (prof l2)">
+        <h3>Farmacologia Geral (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Farmacologia Geral (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="administração profissionalizante (prof l2)">
+        <h3>Administração Profissionalizante (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Administração Profissionalizante (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="produção gráfica (prof l2)">
+        <h3>Produção Gráfica (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Produção Gráfica (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="princípios do web design (prof l2)">
+        <h3>Princípios do Web Design (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Princípios do Web Design (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="pré produção de animação com photoshop (prof l2)">
+        <h3>Pré Produção de Animação com Photoshop (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Pré Produção de Animação com Photoshop (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="lightroom classic cc (prof l2)">
+        <h3>Lightroom Classic CC (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Lightroom Classic CC (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="indesign cs5.5 (prof l2)">
+        <h3>Indesign CS5.5 (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Indesign CS5.5 (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="illustrator cs6 (prof l2)">
+        <h3>Illustrator CS6 (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Illustrator CS6 (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="identidade visual (prof l2)">
+        <h3>Identidade Visual (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Identidade Visual (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="sbv - suporte básico de vida">
+        <h3>SBV - Suporte Básico de Vida</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=SBV - Suporte Básico de Vida" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="direito processual do trabalho (prof l2)">
+        <h3>Direito Processual do Trabalho (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso= Direito Processual do Trabalho (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="direito processual penal (prof l2)">
+        <h3>Direito Processual Penal (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Direito Processual Penal (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="direito tributário (prof l2)">
+        <h3>Direito Tributário (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Direito Tributário (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="direitos humanos (prof l2)">
+        <h3>Direitos Humanos (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Direitos Humanos (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="estatuto da criança e do adolescente (prof l2)">
+        <h3>Estatuto da Criança e do Adolescente (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Estatuto da Criança e do Adolescente (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="ética e estatuto da oab (prof l2)">
+        <h3>Ética e Estatuto da OAB (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Ética e Estatuto da OAB (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="lgpd (prof l2)">
+        <h3>LGPD (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=LGPD (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="licitações e contratos administrativos (prof  l2)">
+        <h3>Licitações e Contratos Administrativos (Prof  L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Licitações e Contratos Administrativos (Prof  L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="agente comunitário de saúde">
+        <h3>Agente Comunitário de Saúde</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Agente Comunitário de Saúde" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="noções básicas em primeiros socorros (prof l2)">
+        <h3>Noções Básicas em Primeiros Socorros (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Noções Básicas em Primeiros Socorros (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="design de layouts com photoshop cc (prof l2)">
+        <h3>Design de Layouts com Photoshop CC (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Design de Layouts com Photoshop CC (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="comunicação assertiva (prof l2)">
+        <h3>Comunicação Assertiva (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Comunicação Assertiva (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão financeira (prof l2)">
+        <h3>Gestão Financeira (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão Financeira (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="análise de crédito e cobrança (prof l2)">
+        <h3>Análise de Crédito e Cobrança (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Análise de Crédito e Cobrança (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="economia na prática (prof l2)">
+        <h3>Economia na Prática (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Economia na Prática (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="contabilidade financeira e gerencial (prof l2)">
+        <h3>Contabilidade Financeira e Gerencial (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Contabilidade Financeira e Gerencial (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="contabilidade na prática (prof l2)">
+        <h3>Contabilidade na Prática (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Contabilidade na Prática (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="contas a pagar e receber (prof l2)">
+        <h3>Contas a Pagar e Receber (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Contas a Pagar e Receber (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="faturamento (prof l2)">
+        <h3>Faturamento (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Faturamento (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="fluxo de caixa (prof l2)">
+        <h3>Fluxo de Caixa (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Fluxo de Caixa (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="mercado financeiro (prof l2)">
+        <h3>Mercado Financeiro (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Mercado Financeiro (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="farmacologia aplicada à odontologia (prof l2)">
+        <h3>Farmacologia Aplicada à Odontologia (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Farmacologia Aplicada à Odontologia (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="decoração de interiores (prof l2)">
+        <h3>Decoração de Interiores (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Decoração de Interiores (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="liderança  (prof l2)">
+        <h3>Liderança  (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Liderança  (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão tributária (prof l2)">
+        <h3>Gestão Tributária (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão Tributária (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão pública (prof l2)">
+        <h3>Gestão Pública (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão Pública (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão de representantes comerciais (prof l2)">
+        <h3>Gestão de Representantes Comerciais (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão de Representantes Comerciais (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão de qualidade  (prof l2)">
+        <h3>Gestão de Qualidade  (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão de Qualidade  (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão da produção industrial (prof l2)">
+        <h3>Gestão da Produção Industrial (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão da Produção Industrial (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão de pessoas e talentos (prof l2)">
+        <h3>Gestão de Pessoas e Talentos (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão de Pessoas e Talentos (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="gestão de equipes (prof l2)">
+        <h3>Gestão de Equipes (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Gestão de Equipes (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="sketchup para design de interiores (prof l2)">
+        <h3>SketchUp para Design de Interiores (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=SketchUp para Design de Interiores (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr-11: transporte, movimentação, armazenamento e manuseio de materiais">
+        <h3>Nr-11: Transporte, Movimentação, Armazenamento e Manuseio de Materiais</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Nr-11: Transporte, Movimentação, Armazenamento e Manuseio de Materiais" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="automaquiagem (prof l2)">
+        <h3>Automaquiagem (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Automaquiagem (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="barbeiro profissional (prof l2)">
+        <h3>Barbeiro Profissional (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Barbeiro Profissional (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="cabeleireiro (prof l2)">
+        <h3>Cabeleireiro (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Cabeleireiro (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="teologia histórica">
+        <h3>Teologia Histórica</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Teologia Histórica" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="excel kids">
+        <h3>Excel Kids</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Excel Kids" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="liderança inspiradora (prof l2)">
+        <h3>Liderança Inspiradora (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Liderança Inspiradora (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="libras avançado - educação l2 (prof l2)">
+        <h3>Libras Avançado - Educação L2 (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Libras Avançado - Educação L2 (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="ética profissional (l2)">
+        <h3>Ética Profissional (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Ética Profissional (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="etiqueta e marketing pessoal (prof l2)">
+        <h3>Etiqueta e Marketing Pessoal (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Etiqueta e Marketing Pessoal (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="marketing e o mundo globalizado (prof l2)">
+        <h3>Marketing e o Mundo Globalizado (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Marketing e o Mundo Globalizado (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="marketing de conteúdo (prof l2)">
+        <h3>Marketing de Conteúdo (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Marketing de Conteúdo (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="resiliência e resultado (prof l2)">
+        <h3>Resiliência e Resultado (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Resiliência e Resultado (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="cuidador de idosos (l2)">
+        <h3>Cuidador de Idosos (L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Cuidador de Idosos (L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="php: do básico ao avançado">
+        <h3>PHP: Do Básico ao Avançado</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=PHP: Do Básico ao Avançado" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="marcenaria (prof l2)">
+        <h3>Marcenaria (Prof L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Marcenaria (Prof L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="wordpress v2">
+        <h3>WordPress V2</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=WordPress V2" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="nr 1">
+        <h3>NR 1</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=NR 1" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="formação profissional de apoio escolar na educação especial inclusiva prof l2">
+        <h3>Formação Profissional de Apoio Escolar na Educação Especial Inclusiva Prof L2</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Formação Profissional de Apoio Escolar na Educação Especial Inclusiva Prof L2" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="analista de cibersegurança (prof. l2)">
+        <h3>Analista de Cibersegurança (Prof. L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Analista de Cibersegurança (Prof. L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+      <article class="card" data-name="direito imobiliário (prof. l2)">
+        <h3>Direito Imobiliário (Prof. L2)</h3>
+        <a href="https://www.apptreinamentos.com/loja_virtual/vercursos.php?curso=Direito Imobiliário (Prof. L2)" target="_blank" rel="noopener">Abrir curso</a>
+      </article>
+    </div>
   </div>
 
   <a class="sticky" href="https://wa.me/5581991102501" target="_blank" rel="noopener">📲 Quero minha vaga</a>
 
   <script>
-    function enviarLead(e){
-      e.preventDefault();
-      const nome=document.getElementById('nome').value.trim();
-      const tel=document.getElementById('telefone').value.trim();
-      const curso=document.getElementById('curso').value.trim();
-      const msg=`Olá! Meu nome é ${nome}.\nTenho interesse no curso: ${curso}.\nMeu WhatsApp: ${tel}.\nQuero matrícula com condição de oferta.`;
-      const url=`https://wa.me/5581991102501?text=${encodeURIComponent(msg)}`;
-      window.open(url,'_blank');
+    const q=document.getElementById('q');
+    const cards=[...document.querySelectorAll('.card')];
+    const count=document.getElementById('count');
+    function filter(){
+      const v=q.value.toLowerCase().trim();
+      let shown=0;
+      for(const c of cards){
+        const ok=c.dataset.name.includes(v);
+        c.style.display=ok?'':'none';
+        if(ok) shown++;
+      }
+      count.textContent=`${shown} cursos`;
     }
+    q.addEventListener('input',filter);
   </script>
 </body>
 </html>
